@@ -1,0 +1,170 @@
+@media screen and (max-width: 768px){
+    #wrapper{
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: 80px 40px 1200px 400px 100px 50px 100px 50px 20px;
+        grid-template-areas: 
+            "hdr hdr hdr"
+            "nv nv nv"
+            "dscbtn dscbtn dscbtn"
+            "asd asd asd"
+            "pic1 pic2 pic3"
+            "tag1 tag2 tag3"
+            "pic4 pic5 pic6"
+            "tag4 tag5 tag6"
+            "ftr ftr ftr";
+    }
+    header {
+        font-weight: bold;
+        background-color: #121212;
+        padding: 10px;
+        grid-area: hdr;
+        font-size: 30pt;
+    }
+    
+    nav {
+        margin-left: 0px;
+        background-color: #121212;
+        grid-area: nv;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+    
+    .nav-links {
+        margin-left: 0;
+        list-style: none;
+        display: flex;
+        justify-content: left;
+        background-color: #121212;
+    
+    }
+    
+    .nav-item a {
+        margin-left: 0;
+        display: inline-block;
+        padding-right: 15px;
+        text-decoration: none;
+        background-color: #121212;
+    }
+    
+    aside{
+        background-color: #333333;
+        grid-area: asd;
+        padding: 80px;
+    }
+    
+    #pic7{
+        max-width: 340px;
+        justify-self: center;
+        grid-area: asd;
+    }
+    
+    #dscbtn {
+        padding: 20px;
+        background-color: #333333;
+        grid-area: dscbtn;
+    }
+    
+    #pic1{
+        background-color: #333333;
+        max-width: 100px;
+        grid-area: pic1;
+        justify-self: center;
+    }
+    
+    #pic2{
+        background-color: #333333;
+        max-width: 100px;
+        grid-area: pic2;
+        justify-self: center;
+    }
+    
+    #pic3{
+        background-color: #333333;
+        max-width: 100px;
+        grid-area: pic3;
+        justify-self: center;
+    }
+    
+    #pic4{
+        background-color: #333333;
+        max-width: 100px;
+        grid-area: pic4;
+        justify-self: center;
+    }
+    
+    #pic5{
+        background-color: #333333;
+        max-width: 100px;
+        grid-area: pic5;
+        justify-self: center;
+    }
+    
+    #pic6{
+        background-color: #333333;
+        max-width: 100px;
+        grid-area: pic6;
+        justify-self: center;
+    }
+    
+    #tag1{
+        grid-area: tag1;
+        justify-self: center;
+    }
+    
+    #tag2{
+        grid-area: tag2;
+        justify-self: center;
+    }
+    
+    #tag3{
+        grid-area: tag3;
+        justify-self: center;
+    }
+    
+    #tag4{
+        grid-area: tag4;
+        justify-self: center;
+    }
+    
+    #tag5{
+        grid-area: tag5;
+        justify-self: center;
+    }
+    
+    #tag6{
+        grid-area: tag6;
+        justify-self: center;
+    }
+    
+    footer {
+        background-color: #121212;
+        grid-area: ftr;
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+    
+    .ftr-links {
+        margin-left: 0;
+        list-style: none;
+        display: flex;
+        justify-content: left;
+        background-color: #121212;
+    
+    }
+    
+    .ftr-item a {
+        margin-left: 0;
+        display: inline-block;
+        padding-right: 15px;
+        text-decoration: none;
+        background-color: #121212;
+    }
+}
+

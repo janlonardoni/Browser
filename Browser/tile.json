@@ -1,0 +1,8 @@
+{
+    "title": "Browser",
+    "folder": "Browser",
+    "description": "Ein Browser ist eine Softwareanwendung, die es Benutzern ermöglicht, Webseiten im Internet zu öffnen und anzuzeigen.",
+    "tags": ["HTML", "CSS", "Internet"],
+    "author": "Jan Lonardoni",
+    "github": "https://github.com/janlonardoni/Browser.git"
+    }
